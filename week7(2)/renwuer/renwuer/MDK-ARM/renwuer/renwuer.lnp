@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"renwuer\main.o"
+"renwuer\gpio.o"
+"renwuer\tim.o"
+"renwuer\usart.o"
+"renwuer\stm32f1xx_it.o"
+"renwuer\stm32f1xx_hal_msp.o"
+"renwuer\stm32f1xx_hal_gpio_ex.o"
+"renwuer\stm32f1xx_hal_tim.o"
+"renwuer\stm32f1xx_hal_tim_ex.o"
+"renwuer\stm32f1xx_hal.o"
+"renwuer\stm32f1xx_hal_rcc.o"
+"renwuer\stm32f1xx_hal_rcc_ex.o"
+"renwuer\stm32f1xx_hal_gpio.o"
+"renwuer\stm32f1xx_hal_dma.o"
+"renwuer\stm32f1xx_hal_cortex.o"
+"renwuer\stm32f1xx_hal_pwr.o"
+"renwuer\stm32f1xx_hal_flash.o"
+"renwuer\stm32f1xx_hal_flash_ex.o"
+"renwuer\stm32f1xx_hal_exti.o"
+"renwuer\stm32f1xx_hal_uart.o"
+"renwuer\system_stm32f1xx.o"
+"renwuer\startup_stm32f10x_md.o"
+--strict --scatter "renwuer\renwuer.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "./renwuer/\renwuer.map" -o renwuer\renwuer.axf

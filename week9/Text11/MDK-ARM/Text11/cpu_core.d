@@ -1,0 +1,11 @@
+text11\cpu_core.o: uC-CPU\cpu_core.c
+text11\cpu_core.o: .\uC-CPU\cpu_core.h
+text11\cpu_core.o: .\uC-CPU\ARM-Cortex-M3\RealView\cpu.h
+text11\cpu_core.o: .\uC-CPU\cpu_def.h
+text11\cpu_core.o: .\uC-CONFIG\cpu_cfg.h
+text11\cpu_core.o: .\uC-LIB\lib_def.h
+text11\cpu_core.o: .\uC-LIB\lib_mem.h
+text11\cpu_core.o: .\uC-CPU\cpu_core.h
+text11\cpu_core.o: .\uC-CONFIG\lib_cfg.h
+text11\cpu_core.o: .\uC-LIB\lib_str.h
+text11\cpu_core.o: .\uC-LIB\lib_ascii.h

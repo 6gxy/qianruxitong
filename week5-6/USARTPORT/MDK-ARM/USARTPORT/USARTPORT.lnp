@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"usartport\startup_stm32f103xb.o"
+"usartport\main.o"
+"usartport\gpio.o"
+"usartport\usart.o"
+"usartport\stm32f1xx_it.o"
+"usartport\stm32f1xx_hal_msp.o"
+"usartport\stm32f1xx_hal_gpio_ex.o"
+"usartport\stm32f1xx_hal_tim.o"
+"usartport\stm32f1xx_hal_tim_ex.o"
+"usartport\stm32f1xx_hal_uart.o"
+"usartport\stm32f1xx_hal.o"
+"usartport\stm32f1xx_hal_rcc.o"
+"usartport\stm32f1xx_hal_rcc_ex.o"
+"usartport\stm32f1xx_hal_gpio.o"
+"usartport\stm32f1xx_hal_dma.o"
+"usartport\stm32f1xx_hal_cortex.o"
+"usartport\stm32f1xx_hal_pwr.o"
+"usartport\stm32f1xx_hal_flash.o"
+"usartport\stm32f1xx_hal_flash_ex.o"
+"usartport\stm32f1xx_hal_exti.o"
+"usartport\system_stm32f1xx.o"
+--strict --scatter "USARTPORT\USARTPORT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USARTPORT.map" -o USARTPORT\USARTPORT.axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"renwusan\main.o"
+"renwusan\gpio.o"
+"renwusan\tim.o"
+"renwusan\stm32f1xx_it.o"
+"renwusan\stm32f1xx_hal_msp.o"
+"renwusan\stm32f1xx_hal_gpio_ex.o"
+"renwusan\stm32f1xx_hal_tim.o"
+"renwusan\stm32f1xx_hal_tim_ex.o"
+"renwusan\stm32f1xx_hal.o"
+"renwusan\stm32f1xx_hal_rcc.o"
+"renwusan\stm32f1xx_hal_rcc_ex.o"
+"renwusan\stm32f1xx_hal_gpio.o"
+"renwusan\stm32f1xx_hal_dma.o"
+"renwusan\stm32f1xx_hal_cortex.o"
+"renwusan\stm32f1xx_hal_pwr.o"
+"renwusan\stm32f1xx_hal_flash.o"
+"renwusan\stm32f1xx_hal_flash_ex.o"
+"renwusan\stm32f1xx_hal_exti.o"
+"renwusan\system_stm32f1xx.o"
+"renwusan\startup_stm32f10x_md.o"
+--strict --scatter "renwusan\renwusan.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "./renwusan/\renwusan.map" -o renwusan\renwusan.axf

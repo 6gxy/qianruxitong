@@ -1,0 +1,15 @@
+text11\os_prio.o: uCOS-III\Source\os_prio.c
+text11\os_prio.o: .\uCOS-III\Source\os.h
+text11\os_prio.o: .\uC-CONFIG\os_cfg.h
+text11\os_prio.o: .\uC-CPU\ARM-Cortex-M3\RealView\cpu.h
+text11\os_prio.o: .\uC-CPU\cpu_def.h
+text11\os_prio.o: .\uC-CONFIG\cpu_cfg.h
+text11\os_prio.o: .\uC-CPU\cpu_core.h
+text11\os_prio.o: .\uC-LIB\lib_def.h
+text11\os_prio.o: .\uC-LIB\lib_mem.h
+text11\os_prio.o: .\uC-CPU\cpu_core.h
+text11\os_prio.o: .\uC-CONFIG\lib_cfg.h
+text11\os_prio.o: .\uC-LIB\lib_str.h
+text11\os_prio.o: .\uC-LIB\lib_ascii.h
+text11\os_prio.o: .\uCOS-III\Source\os_type.h
+text11\os_prio.o: .\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h
